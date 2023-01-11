@@ -1,6 +1,6 @@
 # SQL
 
-## Part 1 ( [f_1.sql]() )
+## Part 1 ( [f_1.sql](https://github.com/dolcezza-ua/SQL/blob/main/f_1.sql) )
 
 - SQL intro
 - Simple WHERE queries
@@ -8,7 +8,7 @@
 
 ---
 
-## Part 2 ( [f_2.sql]() )
+## Part 2 ( [f_2.sql](https://github.com/dolcezza-ua/SQL/blob/main/f_2.sql) )
 
 - NULL values
 - LIKE operator
