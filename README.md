@@ -18,7 +18,7 @@
 
 ---
 
-## Part 3 ( [f_3.sql]() )
+## Part 3 ( [f_3.sql](https://github.com/dolcezza-ua/SQL/blob/main/f_3.sql) )
 
 - ORDER BY
 - LIMIT
@@ -26,13 +26,13 @@
 
 ---
 
-## Part 4 ( [f_4.sql]() )
+## Part 4 ( [f_4.sql](https://github.com/dolcezza-ua/SQL/blob/main/f_4.sql) )
 
 - Aliases
 
 ---
 
-## Part 5 ( [f_5.sql]() )
+## Part 5 ( [f_5.sql](https://github.com/dolcezza-ua/SQL/blob/main/f_5.sql) )
 
 - Aggregate Functions
 - COUNT
@@ -42,7 +42,7 @@
 
 ---
 
-## Part 6 ( [f_6.sql]() )
+## Part 6 ( [f_6.sql](https://github.com/dolcezza-ua/SQL/blob/main/f_6.sql) )
 
 - GROUP BY intro
 - GROUP BY one column
@@ -50,7 +50,7 @@
 
 ---
 
-## Part 7 ( [f_7.sql]() )
+## Part 7 ( [f_7.sql](https://github.com/dolcezza-ua/SQL/blob/main/f_7.sql) )
 
 - JOIN Statement
 - JOIN simple queries
@@ -58,7 +58,7 @@
 
 ---
 
-## Part 8 ( [f_8.sql]() )
+## Part 8 ( [f_8.sql](https://github.com/dolcezza-ua/SQL/blob/main/f_8.sql) )
 
 - Functions
 - CONCAT
