@@ -42,7 +42,7 @@ SELECT *
 FROM pupil
 WHERE first_name LIKE '_____';
 
-/* 4. Find the names and surnames of employees whose surnames end with the letter 'v'. ("staff" table). */
+/* 4. Find the names and surnames of employees whose surnames end with the letter 'v' ("staff" table). */
 
 SELECT first_name, last_name
 FROM staff
