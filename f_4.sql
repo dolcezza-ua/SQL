@@ -56,20 +56,3 @@ WHERE age > 19;
 
 SELECT u.first_name, u.age
 FROM users AS u ;           /* or: FROM users u; */
-
-/* 6. */
-
-
-/* 7. */
-
-
-/* 8. */
-
-
-/* 9. */
-
-
-/* 10. */
-
-
-/* 11. */

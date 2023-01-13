@@ -39,27 +39,27 @@ FROM dish
 WHERE price > 100
 ORDER BY name;
 
-/* 4. Display the title and year of publication of books published in 2012 or later. Sort the result by book title in descending order ("book" table). */
+/* 4. Display the title and year of publication of books published in 2012 or later. Sort the result by book title in descending order (use the "book" table). */
 
 SELECT title, publish_year
 FROM book
 WHERE publish_year >= 2012
 ORDER BY title DESC;
 
-/* 5. Display all information about students. Sort the result by first name, and then by last name in alphabetical order ("pupil" table). */
+/* 5. Display all information about students. Sort the result by first name, and then by last name in alphabetical order (use the "pupil" table). */
 
 SELECT *
 FROM pupil
 ORDER BY first_name, last_name;
 
-/* 6. Display the name, weight and price of dishes, the cost of which is in the range from 90 to 125 inclusive. Sort the result first by price in descending order, and then by weight in ascending order ("dish" table). */
+/* 6. Display the name, weight and price of dishes, the cost of which is in the range from 90 to 125 inclusive. Sort the result first by price in descending order, and then by weight in ascending order (use the "dish" table). */
 
 SELECT name, weight, price
 FROM dish
 WHERE price BETWEEN 90 AND 125
 ORDER BY price DESC, weight;
 
-/* 7. Display all information about the three youngest students ("pupil" table). */
+/* 7. Display all information about the three youngest students (use the "pupil" table). */
 
 SELECT *
 FROM pupil
@@ -81,7 +81,7 @@ WHERE date_of_dismissal IS NULL
 ORDER BY birth_date
 LIMIT 1;
 
-/* 9. Display the first name, last name, and date of birth of the youngest employee who resigned ("staff" table). */
+/* 9. Display the first name, last name, and date of birth of the youngest employee who resigned (use the "staff" table). */
 
 SELECT first_name, last_name, birth_date 
 FROM staff
@@ -94,7 +94,7 @@ LIMIT 1;
 SELECT DISTINCT city
 FROM pupil;
 
-/* 11. Display a list of unique positions of employees, in which the salary is more than 12000. Sort the result by positions in alphabetical order ("staff" table). */
+/* 11. Display a list of unique positions of employees, in which the salary is more than 12000. Sort the result by positions in alphabetical order (use the "staff" table). */
 
 SELECT DISTINCT position
 FROM staff

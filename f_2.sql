@@ -36,13 +36,13 @@ SELECT first_name, last_name, birth_date
 FROM pupil
 WHERE first_name LIKE 'A%';
 
-/* 3. It is necessary to display all information about students whose names consist of five letters ("pupil" table). */
+/* 3. It is necessary to display all information about students whose names consist of five letters (use the "pupil" table). */
 
 SELECT *
 FROM pupil
 WHERE first_name LIKE '_____';
 
-/* 4. Find the names and surnames of employees whose surnames end with the letter 'v' ("staff" table). */
+/* 4. Find the names and surnames of employees whose surnames end with the letter 'v' (use the "staff" table). */
 
 SELECT first_name, last_name
 FROM staff
@@ -61,7 +61,7 @@ SELECT *
 FROM subject
 WHERE name LIKE '%o%o%';
 
-/* 6. Display all information about employees who are still working and whose names start with the letter 'I' ("staff" table). */
+/* 6. Display all information about employees who are still working and whose names start with the letter 'I' (use the "staff" table). */
 
 SELECT *
 FROM staff
@@ -93,31 +93,31 @@ SELECT title, publish_year
 FROM book
 WHERE publish_year BETWEEN 2011 AND 2015;
 
-/* 9. Display all information about dishes whose price is 90, 95 or 125 ("dish" table).*/
+/* 9. Display all information about dishes whose price is 90, 95 or 125 (use the "dish" table).*/
 
 SELECT *
 FROM dish
 WHERE price IN (90, 95, 125);
 
-/* 10. Display the first name, last name, date of birth and city of students named 'Eugen', 'Anna' or 'Volodymyr'("pupil" table).*/
+/* 10. Display the first name, last name, date of birth and city of students named 'Eugen', 'Anna' or 'Volodymyr'(use the "pupil" table). */
 
 SELECT first_name, last_name, birth_date, city
 FROM pupil
 WHERE first_name IN ('Eugen', 'Anna', 'Volodymyr');
 
-/* 11. Display all information about books whose title does not begin with the letter 'F'("book" table).*/
+/* 11. Display all information about books whose title does not begin with the letter 'F'(use the "book" table).*/
 
 SELECT *
 FROM book
 WHERE title  NOT LIKE 'F%';
 
-/* 12. Display first name, last name, date of birth and city of students except those born between 28.08.2005 and 12.06.2007 inclusive ("pupil" table).*/
+/* 12. Display first name, last name, date of birth and city of students except those born between 28.08.2005 and 12.06.2007 inclusive (use the "pupil" table).*/
 
 SELECT first_name, last_name, birth_date, city
 FROM pupil
 WHERE birth_date NOT BETWEEN '2005-08-28' AND '2007-06-12';
 
-/* 13. You need to display all information about students who do not live in the cities of 'Kyiv' and 'Irpin' ("pupil" table).*/
+/* 13. You need to display all information about students who do not live in the cities of 'Kyiv' and 'Irpin' (use the "pupil" table).*/
 
 SELECT *
 FROM pupil
