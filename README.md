@@ -44,7 +44,7 @@
 
 ## Part 6 ( [f_6.sql](https://github.com/dolcezza-ua/SQL/blob/main/f_6.sql) )
 
-- GROUP BY intro
+- GROUP BY Statement
 - GROUP BY one column
 - GROUP BY many columns
 
