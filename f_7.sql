@@ -1,4 +1,4 @@
-/* 1. These are a "department" table and a "employee" table: 
+/* 1. This is a "department" table and a "employee" table: 
 ____________department__________
 | id |    name      |  budget   |
 | 1  | Marketing    | 200000    |
@@ -22,7 +22,7 @@ INNER JOIN department
 ON employee.department_id = department.id
 WHERE employee.department_id = 2 OR employee.department_id = 7;
 
-/* 2. These are a "category" table and a "product" table:
+/* 2. This is a "category" table and a "product" table:
 _______category_____                              
 | id |    name      |
 | 2  | Seafood      |
@@ -43,7 +43,8 @@ INNER JOIN category
 ON category.id = product.category_id
 WHERE category.id = 2;
 
-/* 3. Images of employees whose last name contains the letter n. The result should contain the first and last names of the employees, as well as the name of their department (use the "department" and "employee" tables). */
+/* 3. Images of employees whose last name contains the letter n. The result should contain the first and last names of the employees, as well as the name of their department 
+(use the "department" and "employee" tables). */
 
 SELECT employee.first_name, employee.last_name, department.name
 FROM employee
@@ -95,7 +96,7 @@ WHERE category.name = 'Meat' OR category.name = 'Grains'
 GROUP BY category.name
 ORDER BY category.name;
 
-/* 8. These are a "scoreboard" table and a "pupil" table:
+/* 8. This is a "scoreboard" table and a "pupil" table:
 ____________________________________pupil_____________________________________________________
 | id  |	first_name | last_name | sex    | birth_date | mother_phone  | father_phone  | city  |
 | 1   |	Eugen      | Tsven     | male   | 2000-12-01 | +380967826174 | +380998161172 | Kyiv  |
