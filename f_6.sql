@@ -53,7 +53,8 @@ ____________________________________book_________________________________
 .........................................................................
 | 10  | See Inside Your Body            | 2015         | 216            | 
 
-Find the number (sum) of pages of books that were published each year from 2011 to 2015 inclusive. Sort the result by year of publication in descending order. The result is presented in the form of:
+Find the number (sum) of pages of books that were published each year from 2011 to 2015 inclusive. Sort the result by year of publication in descending order. 
+The result is presented in the form of:
 - the first column — year;
 - the second column is number_of_pages. */
 
