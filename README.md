@@ -66,6 +66,6 @@
 
 ---
 
-## Part 9 ( [f_9.sql]() )
+## Part 9 ( [f_9.sql](https://github.com/dolcezza-ua/SQL/blob/main/f_9.sql) )
 
 - HAVING Statement
