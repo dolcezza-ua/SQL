@@ -112,7 +112,8 @@ SELECT COUNT (*) AS number_of_books
 FROM book
 WHERE publish_year BETWEEN 2012 AND 2017;
 
-/* 15.  Find the number of students for whom the father's phone number (father_phone) is known. Create an alias for the resulting column — number_of_pupils (use the "pupil" table). */
+/* 15.  Find the number of students for whom the father's phone number (father_phone) is known. 
+Create an alias for the resulting column — number_of_pupils (use the "pupil" table). */
 
 SELECT COUNT (father_phone) AS number_of_pupils
 FROM pupil;

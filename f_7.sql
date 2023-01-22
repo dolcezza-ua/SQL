@@ -186,7 +186,8 @@ FROM department
 LEFT JOIN employee
 ON department.id = employee.department_id;
 
-/* 14. Displays first names, last names, and department titles for all employees, regardless of whether they work in a department or not. The result should contain the following columns:
+/* 14. Displays first names, last names, and department titles for all employees, regardless of whether they work in a department or not. 
+The result should contain the following columns:
 - department_name — department name;
 - first_name — name of the employee;
 - last_name — last name of the employee. 

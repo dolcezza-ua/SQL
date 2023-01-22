@@ -52,7 +52,8 @@ SELECT *
 FROM pupil
 ORDER BY first_name, last_name;
 
-/* 6. Display the name, weight and price of dishes, the cost of which is in the range from 90 to 125 inclusive. Sort the result first by price in descending order, and then by weight in ascending order (use the "dish" table). */
+/* 6. Display the name, weight and price of dishes, the cost of which is in the range from 90 to 125 inclusive. 
+Sort the result first by price in descending order, and then by weight in ascending order (use the "dish" table). */
 
 SELECT name, weight, price
 FROM dish
@@ -94,7 +95,8 @@ LIMIT 1;
 SELECT DISTINCT city
 FROM pupil;
 
-/* 11. Display a list of unique positions of employees, in which the salary is more than 12000. Sort the result by positions in alphabetical order (use the "staff" table). */
+/* 11. Display a list of unique positions of employees, in which the salary is more than 12000. 
+Sort the result by positions in alphabetical order (use the "staff" table). */
 
 SELECT DISTINCT position
 FROM staff

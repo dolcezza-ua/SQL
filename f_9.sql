@@ -5,7 +5,8 @@ ____________________________________staff_______________________________________
 ...................................................................................................................................
 | 10  | Eugen      | Stolar    | male   | 1992-11-09 | teacher      | NULL          | 9300   | 2019-07-29     | NULL              |
 
-Find the average salary for each position of only those employees who are still working. The result should be displayed only if the average value of the salary is more than 10,000. 
+Find the average salary for each position of only those employees who are still working. 
+The result should be displayed only if the average value of the salary is more than 10,000. 
 The result should contain the following columns:
 - position — position;
 - average_salary — average salary for each position. */
@@ -84,7 +85,8 @@ _________________________scoreboard___________________________
 ...............................................................
 | 167 | 10        | Math         | 9    | SECOND SEMESTER | 2020 |
 
-Find the average score in each subject for the student Eugen Tsven. The result should be displayed only if the average score for the subject is 10 or more.
+Find the average score in each subject for the student Eugen Tsven. 
+The result should be displayed only if the average score for the subject is 10 or more.
 The result should contain the following columns:
 - subject — subject;
 - average_mark — average mark for each subject. */
@@ -97,7 +99,8 @@ WHERE first_name = 'Eugen' AND last_name = 'Tsven'
 GROUP BY subject
 HAVING average_mark >= 10;
 
-/* 6.  Find the categories and prices of the most expensive products from these categories, if they belong to 3 or more different products. Sort the result by price in ascending order.
+/* 6.  Find the categories and prices of the most expensive products from these categories, if they belong to 3 or more different products. 
+Sort the result by price in ascending order.
 The result should contain the following columns:
 - category_name — category name;
 - max_price — the price of the most expensive product for each of the categories
@@ -124,7 +127,8 @@ __________________________________employee______________________________
 .........................................................................
 | 22 | Adam        | Fripp       | 8             | 2021-03-17  | 12000  |
 
-Find the names of departments and the total amount of money that is spent on the salaries of employees from these departments. Display only those departments in which more than 3 employees work. Sort the result by total amount in descending order.
+Find the names of departments and the total amount of money that is spent on the salaries of employees from these departments. 
+Display only those departments in which more than 3 employees work. Sort the result by total amount in descending order.
 The result should contain the following columns:
 - department_name — department name;
 - amount_of_money — total amount of money for each department. */
