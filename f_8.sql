@@ -51,7 +51,8 @@ __________________________product_____________________
 .......................................................
 | 8  | Flour       | 20       | 60      | 4           |
 
-Display information about each of the products in the "Beverages" category in the format: [product name] - [amount] units. Create an alias for the resulting column — product_information. */
+Display information about each of the products in the "Beverages" category in the format: [product name] - [amount] units. 
+Create an alias for the resulting column — product_information. */
 
 SELECT CONCAT (product.name, ' - ',amount, ' units') AS product_information
 FROM product
